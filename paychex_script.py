@@ -37,4 +37,4 @@ def search():
     # return results
 
 if __name__ == '__main__':
-    app.run(debug=True,port=8500)
+    app.run(debug=True,port=8500,host='0.0.0.0')
