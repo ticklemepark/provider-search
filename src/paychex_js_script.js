@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export function fetchData() {
-    axios.get('http://100.25.149.123:8501/search')
+    axios.get('http://ip-172-31-59-3.ec2.internal:8500/search')
       .then(response => {
         // handle success
         console.log(response.data);
